@@ -245,7 +245,7 @@
   981  git push origin  menu/branch
 
 ```
-## Exercise
+## Exercise 2
 ```bash
  983  git checkout -b bug/fix
   984  move index-4.html  contact.html
