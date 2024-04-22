@@ -149,3 +149,15 @@
  1003  git add .
  1004  git commit -m "removed conflicts"
  1005  git push origin main
+
+```
+## Bundle 3
+### Exrcise 1
+``` bash
+  897  git status
+  898    git cherry-pick
+  899   git revert <hash>
+  9000  git revert --skip
+  9001  git push origin ft/faq-page
+  ```
+  
