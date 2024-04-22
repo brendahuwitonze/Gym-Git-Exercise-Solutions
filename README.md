@@ -233,9 +233,9 @@
   971  git push origin main
   ```
   ### Bundle 6
-  ## Exercise
+  ## Exercise 1
   ```bash
-    974  git checkout -b menu/branch
+   974  git checkout -b menu/branch
   975  touch menu.html
   976  git add .
   977  git status
@@ -243,3 +243,16 @@
   979  git push menu/branch
   980  git branch
   981  git push origin  menu/branch
+
+```
+## Exercise
+```bash
+ 983  git checkout -b bug/fix
+  984  move index-4.html  contact.html
+  985  git add contact.html
+  986  git commit -m "git changed the file name"
+  987  git push origin bug/fix
+  988  git branch main
+  989  git checkout main
+  990  git push origin main
+  991  git checkout bug/fix
