@@ -256,3 +256,11 @@
   989  git checkout main
   990  git push origin main
   991  git checkout bug/fix
+
+```
+### Exerise 3
+```bash
+ 994  git checkout bug/fix
+  995  git add contact.html
+  996  git commit -m "made changes on the contact"
+  997  git push origin bug/fix
