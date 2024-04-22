@@ -160,4 +160,37 @@
   9000  git revert --skip
   9001  git push origin ft/faq-page
   ```
+  ### Exercise 2
+  ```bash
+    905  git checkout ft/faq-page
+  906  git checkout -b ft/home-page-redesign
+  907  git checkout main
+  908  git status
+  909  git push origin main
+  910  git status
+  911  git checkout ft/faq-page
+  912  git status
+  913  git checkout  ft/home-page-redesign
+  914  git status
+  915  git pull
+  916  git branch
+  917  git checkout main
+  918  git status
+  919  git push origin main
+  920  git pull
+  921  git pull origin main
+  922  git push origin main
+  923  git checkout  ft/home-page-redesign
+  924  git fetch
+  925  git rebaseorign main
+  926  git rebase orign main
+  927  git rebase main 
+  928  git status
+  929  git add home.html
+  930  git push origin ft/home-page-redesign 
+  931  git checkout main
+  932  git status
+  933  git commit -m "changes on the home file"
+  934  git push origin main
+
   
