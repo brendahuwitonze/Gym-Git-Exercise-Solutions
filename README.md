@@ -212,6 +212,8 @@
   948  git push git-copy
   ```
   ### Exercise 2
+  ```bash
+
   960  git checkout -b ft/squashing
   961  git merge sqaush ft/footer
   962  git status
@@ -221,3 +223,11 @@
   966  git status
   967  git commit -m "footer changes squashing"
   968  git push origin ft/squashing
+  ```
+  ## Bundle
+  ### Exercise
+  ``` bash
+  968  git add index.html
+  969  git commit -m "made changes to the folked repo"
+  970  git branch
+  971  git push origin main
