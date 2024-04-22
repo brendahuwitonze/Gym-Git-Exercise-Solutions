@@ -193,4 +193,20 @@
   933  git commit -m "changes on the home file"
   934  git push origin main
 
-  
+  ```
+  ## Bundal 4
+  ### Exerices 1
+  ``` bash
+  936  git checkout main
+  937  git remote add origin https://github.com/brendahuwitonze/NewGitExercise.git
+  938  clear
+  939  git remote add git-copy https://github.com/brendahuwitonze/NewGitExercise.git
+  940  git status
+  941  git add home.html
+  942  git commit -m "changes in the homepage"
+  943  git push origin main
+  944  git push -u -f origin main
+  945  git push -u origin main
+  946  remote
+  947  git remote
+  948  git push git-copy
