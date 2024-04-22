@@ -224,10 +224,22 @@
   967  git commit -m "footer changes squashing"
   968  git push origin ft/squashing
   ```
-  ## Bundle
-  ### Exercise
+  ## Bundle 5
+  ### Exercise 2
   ``` bash
   968  git add index.html
   969  git commit -m "made changes to the folked repo"
   970  git branch
   971  git push origin main
+  ```
+  ### Bundle 6
+  ## Exercise
+  ```bash
+    974  git checkout -b menu/branch
+  975  touch menu.html
+  976  git add .
+  977  git status
+  978  git commit -m "created a menu file"
+  979  git push menu/branch
+  980  git branch
+  981  git push origin  menu/branch
