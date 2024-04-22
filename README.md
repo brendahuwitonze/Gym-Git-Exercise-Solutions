@@ -66,3 +66,20 @@
   956  git stash pop 0
   957  git reset team.html
   958  git status
+```
+## Bundle 2
+### Exercise 1
+``` Bash
+  904  git branch ft/bundle-2
+  905  git checkout ft/bundle-2
+  906  git touch service
+  907  git add service.htl
+  908  git branch
+  909  clear
+  910  git add service.html
+  911  git status
+  912  git commit -m "saved changes on the service file"
+  913  git push origin master
+  914  git push origin main
+  915  git push origin ft/bundle-2
+
