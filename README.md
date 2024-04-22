@@ -210,3 +210,14 @@
   946  remote
   947  git remote
   948  git push git-copy
+  ```
+  ### Exercise 2
+  960  git checkout -b ft/squashing
+  961  git merge sqaush ft/footer
+  962  git status
+  963  git branch
+  964  git merge --sqaush ft/footer
+  965  git merge --squash ft/footer 
+  966  git status
+  967  git commit -m "footer changes squashing"
+  968  git push origin ft/squashing
