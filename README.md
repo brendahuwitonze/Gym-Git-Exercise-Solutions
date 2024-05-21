@@ -370,4 +370,12 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1736  git merge -m "merged the ft/new-branch-from-commit ,into main" ft/new-branch-from-commit
  1737  git push origin master
  1738  git push origin main
+  1763  git checkout ft/new-branch-from-commit
+ 1764  git rebase main
+ 1765  git status
+ 1766  git log
+  1768  git branch -m ft/new-branch-from-commit ft/improved-branch-name
+ 1769  git log --oneline
+ 1770  git checkout 4f4305cgit
+
 
