@@ -264,3 +264,84 @@
   995  git add contact.html
   996  git commit -m "made changes on the contact"
   997  git push origin bug/fix
+
+
+
+```
+## Advanced git  excercise solution
+
+### part 1  Refining Git History
+```bash
+1509  touch test{1..4}.md
+ 1510  git add test1.md && git commit -m "chore: Create initial file"
+ 1511  git add test2.md && git commit -m "chore: Create another file"
+ 1512  git add test3.md && git commit -m "chore: Create third and fourth files"
+ 1513  git status 
+ 1514  -rf    README.md
+ 1515  git log
+ 1516  git add test4.md
+ 1517  git commit --amend -m "Updated commit message with test4.md"
+ 1518  git rebase -i HEAD~2
+ 1519  clear
+ 1520  git log
+ 1521  git rebase -i HEAD~2
+ 1522  git log
+ 1523  git rebase -i HEAD~1
+ 1524  git log
+ 1525  git rebase -i HEAD~3
+ 1526  git rebase -i HEAD~2
+ 1527  git rebase --continue | --abort | --skip
+ 1528  git init
+ 1529  touch test{1..4}.md
+ 1530  git add test1.md && git commit -m "chore: Create initial file"
+ 1531  git add test2.md && git commit -m "chore: Create another file"
+ 1532  git add test3.md && git commit -m "chore: Create third and fourth files"
+ 1533  git add test4.md
+ 1534  git rebase -i HEAD~2
+ 1535  git status
+ 1536  git push origin master
+ 1537  git push origin main
+ 1538  git status
+ 1539  git push origin main
+ 1540  git rebase -i HEAD~2
+ 1541  git commit -- amend -m "updated commit message with "updated the commit message with test.md4"
+git commit -- amend -m "updated commit message with "updated the commit message with test.md4"
+ 1542  git commit --amend -m "Updated commit message with test4.md"
+ 1543  git rebase -i HEAD~2
+ 1544  git rebase --continue
+ 1545  git rebase --edit-todo
+ 1546  git log
+ 1547  git rebase --edit-todo
+ 1548  git log
+ 1549  git rebase --edit-todo
+ 1550  git log
+ 1551  git rebase --edit-todo
+ 1552  git log
+ 1553  git status
+ 1554  git rebase --continue
+ 1555  git log
+ 1556  git rebase --continue
+ 1557  git rebase -i HEAD~2
+ 1558  git log
+ 1559  git reset
+ 1560  git log
+ 1561  git reset HEAD~
+ 1562  git log
+ 1563  git status
+ 1564  git commit -m "Create third file" and "Create fourth file"
+ 1565  git log
+ 1566  git reset 73d775248280c4f6ecd554787f55a3d582ea8716
+ 1567  git log
+ 1568  git rebase -i HEAD~2
+ 1569  git log
+ 1570  git rebase --continue
+ 1571  git push origin main
+ 1572  git pull
+ 1573  git pull rebase true
+ 1574  clear
+ 1575  git pull
+1600  git branch ft/branch, 
+ 1601 git log ft/branch, --oneline
+ 1622  git checkout main
+ 1623  git cherry-pick 5f922cf 
+ 1626  git log --graph
