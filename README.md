@@ -268,6 +268,8 @@
 
 
 ```
+
+
 ## Advanced git  excercise solution
 
 ### part 1  Refining Git History
@@ -345,3 +347,27 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1622  git checkout main
  1623  git cherry-pick 5f922cf 
  1626  git log --graph
+ ```
+
+ 
+
+ ### part2 
+ ```bash
+ 1722  git branch -d ft/new-feature
+ 1723  git checkout -b ft/new-branch-from-commit commit-hash
+ 1724  git checkout -b ft/new-branch-from-commit 
+ 1725  git branch -d ft/new-branch-from-commit 
+ 1726  git checkout main
+ 1727  git branch -d ft/new-branch-from-commit
+ 1728  git log
+ 1729  git add.
+ 1730  git commit -m "Your commit message"
+ 1731  git log --oneline
+ 1732  git checkout -b ft/new-branch-from-commit 051265e
+ 1733  git status
+ 1734  git push origin ft/new-branch-from-commit
+ 1735  git checkout main
+ 1736  git merge -m "merged the ft/new-branch-from-commit ,into main" ft/new-branch-from-commit
+ 1737  git push origin master
+ 1738  git push origin main
+
